@@ -73,13 +73,12 @@ h3 {
 
 .tas,
 .me  {
-    display: flex;
-    align-self: center;
+    justify-content: center;
     padding: 20px 20px;
     max-width: 1500px;
     min-height: 500px;
     padding-left: 250px;
-    flex-direction: row;
+    border-radius: 50%;
 }
 
 .nav-links li {
@@ -92,8 +91,7 @@ h3 {
 .about-me p {
     text-align: left;
     padding: 3%;
-    border: 5px;
-    border-color: blueviolet;
+    border: solid white 10px;
     color: rgb(204, 0, 255);
     background-color: rgb(4, 0, 255);
     font-size: 36px;
@@ -107,11 +105,12 @@ h3 {
 } */
 
 .my-work p {
-     text-align: left; 
-     padding: 3%; 
+    text-align: left; 
+    padding: 3%; 
     font-size: 36px;
     color: rgb(204, 0, 255);
     background-color: rgb(4, 0, 255);
+    border: solid white 10px;
     
 }
 
@@ -129,10 +128,12 @@ h3 {
     padding: 20px 50px; 
     border: solid 1px white;
     color: white;
+    max-width: 1200px;
+    max-height: fit-content;
 
 }
 
-.project-2 {
+ .project-2 {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
@@ -163,7 +164,8 @@ h3 {
     flex-direction: row;
     border: solid 1px white;
    
-}
+} 
+
 
 .wrapper {
     display: flex;
