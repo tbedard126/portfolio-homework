@@ -8,13 +8,14 @@ body {
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(207, 0, 0);
-    font-size: 36px;
+    /* font-size: 36px; */
 }
+
 
 li, a {
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  text-transform: uppercase;
- font-size: 24px;
+ font-size: 36px;
  text-decoration: none;
  color: black;
 }
@@ -24,7 +25,7 @@ header {
     background-color: bisque;
     display: flex;
     justify-content:space-between;
-    padding: 5px;
+    padding: 10px;
     align-items: right;
     position: fixed;
     width: 100%;
@@ -46,14 +47,8 @@ h1 {
 }
 
 .nav-links a:hover {
-    color: black;
+    color: blue;
     font-size: 36px;
-    
-}
-
-
-p {
-    color: whitesmoke;
     
 }
 
@@ -76,13 +71,15 @@ h3 {
 }
 
 
-img {
+.tas,
+.me  {
     display: flex;
     align-self: center;
     padding: 20px 20px;
-    max-width: 2000px;
-    max-height: 500px;
+    max-width: 1500px;
+    min-height: 500px;
     padding-left: 250px;
+    flex-direction: row;
 }
 
 .nav-links li {
@@ -93,25 +90,99 @@ img {
 }
 
 .about-me p {
-    display: flex;
-    text-align: center;
+    text-align: left;
+    padding: 3%;
+    border: 5px;
+    border-color: blueviolet;
+    color: rgb(204, 0, 255);
+    background-color: rgb(4, 0, 255);
+    font-size: 36px;
 }
 
-img.code-image {
-    display: inline-block;
-    position: relative;
+/* .my-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+} */
+
+.my-work p {
+     text-align: left; 
+     padding: 3%; 
+    font-size: 36px;
+    color: rgb(204, 0, 255);
+    background-color: rgb(4, 0, 255);
+    
+}
+
+.code-image {
+    justify-content: center;
+    padding: 3%;
+    margin: auto;
+    border: solid 1px white;
+   
+    
 }
 
 .desktop {
-    padding: 20px 30px;
+    margin: 0;
+    padding: 20px 50px; 
+    border: solid 1px white;
+    color: white;
 
+}
+
+.project-2 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 3%;
+    flex-direction: row;
+    border: solid 1px white;
+
+}
+
+.project-3 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 0%;
+    flex-direction: row;
+    border: solid 1px white;
+ 
+}
+
+.project-4 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 3%;
+    flex-direction: row;
+    border: solid 1px white;
+   
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+
+}
+
+.email {
+    color: antiquewhite;
 }
 
 footer {
     text-align: center;
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media screen and (max-width: 730px){
 
-}
   
