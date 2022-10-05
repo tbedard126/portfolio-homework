@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -12,24 +12,25 @@ body {
 }
 
 
-li, a {
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- text-transform: uppercase;
- font-size: 36px;
- text-decoration: none;
- color: black;
+li,
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
 }
 
 header {
 
     background-color: bisque;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 10px;
     align-items: right;
     position: fixed;
     width: 100%;
-    }
+}
 
 h1 {
     display: flex;
@@ -49,14 +50,14 @@ h1 {
 .nav-links a:hover {
     color: blue;
     font-size: 36px;
-    
+
 }
 
 
 nav {
- display: flex;
- font-size: 36px;
-  
+    display: flex;
+    font-size: 36px;
+
 }
 
 
@@ -72,7 +73,8 @@ h3 {
 
 
 .tas,
-.me  {
+.me {
+
     justify-content: center;
     padding: 20px 20px;
     max-width: 1500px;
@@ -84,7 +86,7 @@ h3 {
 .nav-links li {
     display: inline-block;
     align-content: center;
-    padding:  0px 60px;
+    padding: 0px 60px;
     list-style: none;
 }
 
@@ -97,21 +99,15 @@ h3 {
     font-size: 36px;
 }
 
-/* .my-work {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: row;
-} */
 
 .my-work p {
-    text-align: left; 
-    padding: 3%; 
+    text-align: left;
+    padding: 3%;
     font-size: 36px;
     color: rgb(204, 0, 255);
     background-color: rgb(4, 0, 255);
     border: solid white 10px;
-    
+
 }
 
 .code-image {
@@ -119,13 +115,13 @@ h3 {
     padding: 3%;
     margin: auto;
     border: solid 1px white;
-   
-    
+
+
 }
 
 .desktop {
     margin: 0;
-    padding: 20px 50px; 
+    padding: 20px 50px;
     border: solid 1px white;
     color: white;
     max-width: 1200px;
@@ -133,7 +129,7 @@ h3 {
 
 }
 
- .project-2 {
+.project-2 {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
@@ -152,7 +148,7 @@ h3 {
     padding: 0%;
     flex-direction: row;
     border: solid 1px white;
- 
+
 }
 
 .project-4 {
@@ -163,8 +159,8 @@ h3 {
     padding: 3%;
     flex-direction: row;
     border: solid 1px white;
-   
-} 
+
+}
 
 
 .wrapper {
@@ -178,6 +174,7 @@ h3 {
 
 .email {
     color: antiquewhite;
+
 }
 
 footer {
@@ -185,6 +182,3 @@ footer {
     font-size: 48px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-
-  
