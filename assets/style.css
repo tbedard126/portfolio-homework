@@ -8,8 +8,10 @@ body {
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(207, 0, 0);
+    width: 100vw;
     /* font-size: 36px; */
 }
+
 
 
 li,
@@ -25,6 +27,7 @@ header {
 
     background-color: bisque;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     padding: 10px;
     align-items: right;
@@ -43,6 +46,7 @@ h1 {
     background-color: purple;
     border-width: 2px;
     padding-top: 60px;
+    width: 100%;
 
 
 }
@@ -53,13 +57,24 @@ h1 {
 
 }
 
+.nav-links {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 
 nav {
     display: flex;
+    flex-wrap: nowrap;
     font-size: 36px;
 
 }
 
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
 h2,
 h3 {
@@ -71,22 +86,29 @@ h3 {
     text-decoration: underline;
 }
 
+.avatar-pics {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
 
 .tas,
 .me {
 
     justify-content: center;
-    padding: 20px 20px;
-    max-width: 1500px;
-    min-height: 500px;
-    padding-left: 250px;
-    border-radius: 50%;
+    padding: 5px 20px;
+    max-width: 40%;
+    min-height: auto;
+    padding-left: 30px;
+    border-radius: 55%;
+
 }
 
 .nav-links li {
     display: inline-block;
     align-content: center;
-    padding: 0px 60px;
+    padding: 0px 20px;
     list-style: none;
 }
 
@@ -96,24 +118,26 @@ h3 {
     border: solid white 10px;
     color: rgb(204, 0, 255);
     background-color: rgb(4, 0, 255);
-    font-size: 36px;
+    font-size: 24px;
 }
 
 
 .my-work p {
     text-align: left;
     padding: 3%;
-    font-size: 36px;
+    font-size: 24px;
     color: rgb(204, 0, 255);
     background-color: rgb(4, 0, 255);
     border: solid white 10px;
 
 }
 
+
 .code-image {
     justify-content: center;
     padding: 3%;
-    margin: auto;
+    /* margin: auto; */
+    max-width: 300px;
     border: solid 1px white;
 
 
@@ -124,15 +148,29 @@ h3 {
     padding: 20px 50px;
     border: solid 1px white;
     color: white;
-    max-width: 1200px;
+    max-width: 600px;
     max-height: fit-content;
 
 }
 
+.project-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    min-height: 200px;
+    min-width: 100%;
+    align-items: flex-end;
+    flex-direction: row;
+    color: red;
+}
+
+.project-link-2 {
+    font-size: 24px;
+
+}
+
 .project-2 {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+    max-width: 300px;
     justify-content: space-between;
     padding: 3%;
     flex-direction: row;
@@ -140,21 +178,23 @@ h3 {
 
 }
 
+.project-2 a {
+
+    font-size: 54px;
+}
+
 .project-3 {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+    max-width: 300px;
     justify-content: space-between;
     padding: 0%;
     flex-direction: row;
     border: solid 1px white;
+    width: 100%;
 
 }
 
 .project-4 {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+    max-width: 300px;
     justify-content: space-between;
     padding: 3%;
     flex-direction: row;
@@ -174,6 +214,32 @@ h3 {
 
 .email {
     color: antiquewhite;
+    font-size: 24px;
+
+}
+
+.pictures {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.project {
+    width: 50%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-main {
+    flex-basis: 100%;
+    min-height: 400px;
+    background-image: url("./images/computerpic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
